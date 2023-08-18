@@ -1,12 +1,12 @@
-c0e064bd3b12461aef7ac1c5e6744442 *DESCRIPTION
-c90d29500ffec893307e551d84ee6269 *NAMESPACE
-99d28c2009d8cf924c23cb6f1829b2df *R/analysis.R
-9c1dfe3778115f9cc12688503884385e *R/positions.R
-61d5c223cf6188ecab1ca48fc7791d06 *R/pull_data.R
-35948b0154a1c7650a66869c165b2fe7 *R/pull_data_queries.R
+d23ed24d2b004a561ed9af591eeae581 *DESCRIPTION
+4e9cb4bbeda89ac6f44ebfff7e63062f *NAMESPACE
+2c050493d84597870313a5c69dced8b6 *R/analysis.R
+8a3ad67f0cc8100efaf7a658857d4bd9 *R/positions.R
+317859c16347bc9ef83aeecd5d426e66 *R/pull_data.R
+e5a91286cca1d67ff3d87efc0fd2e15d *R/pull_data_queries.R
 8cfdf8fedb5ef14d4b3050108a70da3d *R/pull_data_queries_v3.R
 9bc9d4398dba6abc41657d2c2ede5996 *R/trade.R
-5c2e92a264131912a6f30a67ade7f1bf *README.md
+e7294b916bda9429be4d912053258410 *README.md
 29dade73bbcfdf1e5cb671c8a405b261 *man/check_eth.to.tok_eth.fix.Rd
 85b35c14ac60eace865ae1b96d4a2178 *man/check_eth.to.tok_tok.fix.Rd
 b475da424f44b503678ce8e0aeab5a84 *man/check_eth_balance.Rd
@@ -44,7 +44,6 @@ f2dd940899fe1d890ad007bd874168e4 *man/pairs_all_v3.Rd
 3db6c3988002e5f02d21dc03edb628a9 *man/py_int.Rd
 2e7d1ff299e2667e45c411cd17e62b55 *man/r_num.Rd
 f99fa20fff41387a5fbf784ed8121d03 *man/set_infura_node.Rd
-edcb765f11cdd03ef65881702586f04c *man/swap_performance.Rd
 f4ec84fa99e7cfeebc00a10aac228679 *man/swap_statistics.Rd
 f1d3af1d4951a1773990703825e2c817 *man/swap_visualizations.Rd
 aef6b979b46f837d35850e482b0ec27f *man/swaps.Rd
@@ -77,7 +76,7 @@ e980615fcdbaeeeed491019c61666c46 *man/user_mints_v2.Rd
 c2e939564af46e8b829ae5fa12c74d7d *man/vis_pair_liq_positions_v3.Rd
 d3ca91afc9eed1d91f4dfd6953d5efba *man/vis_pair_stats_hist_daily_v2.Rd
 e6efa8e1d963d71459dd0c701f5bc8db *man/vis_pair_stats_hist_daily_v3.Rd
-7c1c77faa3c14b37f0f21bfbd07684b5 *man/vis_token_pair_map_v2.Rd
+08594c376fab6918c85ce25e341af315 *man/vis_token_pair_map_v2.Rd
 4414686fa2023dbaea551ce36196e558 *man/vis_token_pair_map_v3.Rd
 a28a75ebd7eea80654de8fd7f96ce01d *man/vis_token_stats_hist_v2.Rd
 9615b3ba53d50f3b286fb39d1b3eacb4 *man/vis_token_stats_hist_v3.Rd

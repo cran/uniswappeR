@@ -2,12 +2,12 @@
 
 R Package to Interact and Trade with Uniswap Platform and Exploration of Uniswap data from GraphQL.<br>
 Install Using <br>
-`devtools::install_github("Omni-Analytics-Group/uniswappeR")`
+`devtools::install_github("OmniacsDAO/uniswappeR")`
 
 The package has 3 Functionalities
-- [Trade : To query prices and make trades on Uniswap from R console](https://github.com/Omni-Analytics-Group/uniswappeR#trade-functionality)
-- [Pull Data : To pull all types of data from Uniswap GraphQL to explore yourself](https://github.com/Omni-Analytics-Group/uniswappeR#pull-data-functionality)
-- [Explore Data : To Analyse and explore the uniswap data](https://github.com/Omni-Analytics-Group/uniswappeR#data-exploration-functionality)
+- [Trade : To query prices and make trades on Uniswap from R console](https://github.com/OmniacsDAO/uniswappeR#trade-functionality)
+- [Pull Data : To pull all types of data from Uniswap GraphQL to explore yourself](https://github.com/OmniacsDAO/uniswappeR#pull-data-functionality)
+- [Explore Data : To Analyse and explore the uniswap data](https://github.com/OmniacsDAO/uniswappeR#data-exploration-functionality)
 
 <hr>
 
@@ -27,13 +27,13 @@ View the [video walkthrough](https://www.youtube.com/watch?v=GpWZLMB2lvM) on how
 - Create a Virtual Environment to keep the backend sandboxed using<br>`virtualenv_create("uniswappeR-env")`
 - Install uniswap-python package using<br>`virtualenv_install(envname="uniswappeR-env",packages=c("uniswap-python"))`
 - Use the Virtual Environment using<br>`use_virtualenv("uniswappeR-env",required=TRUE)`
-- Extract checksum function from Web3 module<br>`Web3_checksum <- import("web3",convert=FALSE)$Web3$toChecksumAddress`
+- Extract checksum function from Web3 module<br>`Web3_checksum <- import("web3",convert=FALSE)$Web3$to_checksum_address`
 
 #### 1. Use the Virtual Environment generated above
 - `library(reticulate)`
 - `library(uniswappeR)`
 - `use_virtualenv("uniswappeR-env",required=TRUE)`
-- `Web3_checksum <- import("web3",convert=FALSE)$Web3$toChecksumAddress`
+- `Web3_checksum <- import("web3",convert=FALSE)$Web3$to_checksum_address`
 
 #### 2. Use your Infura Node
 `set_infura_node("https://mainnet.infura.io/v3/XXXXXXXXXXXXXXXXXXX")`
@@ -356,6 +356,11 @@ Allows for a user to visualise liquidity positions spread in a given pair via a 
 <img src="man/figures/vis_pair_liq_positions_v2.png" align="center"/>
 <div align="center">Liquidity Token Distribution</div>
 
+- `vis_pair_liq_positions_v3(pair_address = "0x1d42064fc4beb5f8aaf85f4617ae8b3b5b8bd801")`
+
+<img src="man/figures/vis_pair_liq_positions_v3.png" align="center"/>
+<div align="center">Liquidity Token Distribution</div>
+
 #### 8. User Swap Performance
 
 Allows a user to retrieve all the swaps data for a given address or addresses. This allows a user to readily recognize their level of activity.
@@ -365,9 +370,9 @@ Allows a user to retrieve all the swaps data for a given address or addresses. T
 - `swap_visualizations(swap_data)`
 <img src="man/figures/swap_visualizations.png"  align="center"/>
 
-- `swap_performance(swap_data)`
+<!-- - `swap_performance(swap_data)`
 <img src="man/figures/example3_pricechange.png"  align="center"/>
-
+ -->
 
 #### 9. Save analysis plot
 
@@ -389,4 +394,4 @@ Allows a user to retrieve all the swaps data for a given address or addresses. T
 
 ## About Us
 
-[Omni Analytics Group](https://omnianalytics.io) is an incorporated group of passionate technologists who help others use data science to change the world. Our  practice of data science leads us into many exciting areas where we enthusiastically apply our machine learning, artificial intelligence and analysis skills. Our flavor for this month, the blockchain!  To learn more about what we do or just to have fun, join us over on [Twitter](https://twitter.com/OmniAnalytics).
+[Omni Analytics Group](https://omnianalytics.org) is an incorporated group of passionate technologists who help others use data science to change the world. Our  practice of data science leads us into many exciting areas where we enthusiastically apply our machine learning, artificial intelligence and analysis skills. Our flavor for this month, the blockchain!  To learn more about what we do or just to have fun, join us over on Twitter @OmniAnalytics.
